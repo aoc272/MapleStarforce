@@ -1,0 +1,36 @@
+.align-around, .align-between, .align-center {
+	align-items: center;
+	display: flex;
+}
+
+.align-around {
+	justify-content: space-around;
+}
+
+.align-center {
+	justify-content: center;
+}
+
+.align-between {
+	justify-content: space-between;
+}
+
+body {
+	background-position: center;
+}
+
+.main-ui-div {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#visual-star {
+	text-align: center;
+}
+
+.image {
+	background-position: center;
+	box-sizing: border-box;
+}

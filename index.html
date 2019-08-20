@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./layout.css">
+	<link rel="stylesheet" type="text/css" href="./position.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script type="text/javascript" src="./src.js"></script>
+	<title>스타포스 강화</title>
+</head>
+<body>
+	<div class="grid main-ui-div">
+		<div id="visual-star" class="align-center color3 wood-area"></div>
+		<div id="message" class="align-center color1 wood-area"></div>
+		<div class="grid nested">
+			<div class="sky-area"><div class="image"></div></div>
+			<div id="information" class="color1 wood-area"></div>
+		</div>
+		<div class="align-around catch wood-area">
+			<label for="catch-checkbox" class="color2">스타캐치</label>
+			<input id="catch-checkbox" type="checkbox">
+		</div>
+		<div class="align-around guard wood-area">
+			<label for="safeguard-checkbox" class="color2">파괴방지</label>
+			<input id="safeguard-checkbox" type="checkbox">
+		</div>
+		<div class="align-around meso-div wood-area">
+			<div class="color2">필요한 메소:</div>
+			<div id="meso-text" class="color1"></div>
+		</div>
+		<input id="enchant-button" type="button" value="강화">
+		<input id="reset-button" type="button" value="초기화">
+	</div>
+</body>
+</html>

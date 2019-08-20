@@ -1,0 +1,58 @@
+.grid {
+	display: grid;
+	grid-gap: .3125em;
+}
+
+.main-ui-div {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr) 6fr repeat(3, 1fr);
+}
+
+#visual-star {
+	grid-column: 1 / 3;
+	grid-row: 1 / 2;
+}
+
+#message {
+	grid-column: 1 / 3;
+	grid-row: 2 / 3;
+}
+
+.nested {
+	grid-column: 1 / 3;
+	grid-row: 3 / 4;
+	grid-template-columns: 1fr 1.5fr;
+}
+
+.sky-area {
+	grid-column: 1 / 2;
+}
+
+#information {
+	grid-column: 2 / 3;
+}
+
+.catch {
+	grid-column: 1 / 2;
+	grid-row: 4 / 5;
+}
+
+.guard {
+	grid-column: 2 / 3;
+	grid-row: 4 / 5;
+}
+
+.meso-div {
+	grid-column: 1 / 3;
+	grid-row: 5 / 6;
+}
+
+#enchant-button {
+	grid-column: 1 / 2;
+	grid-row: 6 / 7;
+}
+
+#reset-button {
+	grid-column: 2 / 3;
+	grid-row: 6 / 7;
+}

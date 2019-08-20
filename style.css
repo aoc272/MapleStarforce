@@ -1,0 +1,83 @@
+.color1, .color2, .color3 {
+	font-size: .875em;
+}
+
+.color1 {
+	color: #fdfaf5;
+}
+
+.color2 {
+	color: #bfb1a4;
+}
+
+.color3 {
+	color: #e6cb3d;
+}
+
+.wood-area, .sky-area {
+	border-radius: .25em;
+}
+
+.wood-area {
+	background-color: #2c2721;
+}
+
+body {
+	background-image: url("./images/esfera.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.main-ui-div {
+	background-color: #585045;
+	border-radius: .5em;
+	height: 21.25em;
+	padding: .3125em;
+	width: 25em;
+}
+
+.nested {
+	height: 10em;
+}
+
+.sky-area {
+	background-image: linear-gradient(#29b5d0, #00729b);
+	padding: .4375em;
+	width: 9.125em;
+}
+
+.image {
+	background-image: url("./images/arcaneshade glove.png");
+	background-repeat: no-repeat;
+	background-size: 45%;
+	border-color: white;
+	border-radius: .25em;
+	border-style: dashed;
+	border-width: .1875em;
+	height: 100%;
+}
+
+#information {
+	padding: .9375em;
+}
+
+#enchant-button, #reset-button {
+	border: none;
+	border-radius: .25em;
+	color: #f9ffc4;
+	padding: .625em 1.875em;
+}
+
+#enchant-button {
+	background-color: #99b721;
+}
+
+#reset-button {
+	background-color: #949494;
+}
+
+input:focus {
+	outline-width: 0em;
+}
